@@ -1,0 +1,19 @@
+# Jekyll configuration
+name: Football Live Streams
+description: Watch live football streams in HD
+url: "https://redil1.github.io"  # Change this to your GitHub Pages URL
+baseurl: ""
+
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
